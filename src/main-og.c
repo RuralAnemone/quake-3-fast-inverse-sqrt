@@ -1,8 +1,11 @@
 #include <math.h>
+#include <stdio.h>
+
+float Q_rsqrt(float number);
 
 int main() {
-	printf(Q_rsqrt(1));
-	printf(Q_rsqrt(4));
+	printf("%f", Q_rsqrt(1));
+	printf("%f", Q_rsqrt(4));
 	// idk
 
 }
