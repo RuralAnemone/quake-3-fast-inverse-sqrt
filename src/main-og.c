@@ -4,8 +4,11 @@
 float Q_rsqrt(float number);
 
 int main() {
-	printf("%f", Q_rsqrt(1));
-	printf("%f", Q_rsqrt(4));
+	printf("should be close to 1:\n");
+	printf("%f\n", Q_rsqrt(1));
+
+	printf("should be close to 0.5:\n");
+	printf("%f\n", Q_rsqrt(4));
 	// idk
 
 }
